@@ -1,0 +1,39 @@
+def chat ():
+    return(name)
+name = (input('User name: '))
+print('Hello '+ name)
+
+def greetings():
+    return (greetings)
+name = (input('User:'))
+greetings = ('Hi', 'Hello', ' Ciao')
+print('How are you')
+name = (input('User:'))
+nice = ('good', 'Im fine thank you')
+bad = ('Im not okay', 'not good')
+if name in nice:
+    print (str('nice to hear!'))
+else:
+    print(str('I hope things get better'))
+    
+
+def assistance ():
+    return (assistance)
+print ('Is there anything I could help you with today?',('math or random fact'))
+name = (input('User:'))
+subject1 = ('math')
+subject2 = ('random fact')
+
+if name in subject2:
+    print (str('Octopuses have three hearts!'))
+else:
+    print (str('Why cant you do it yourself?'))
+    
+name = (input('User:'))
+no = ('I cant', 'no')
+yes = ('I can', 'yes and I will')
+if name in no:
+    print (str('is ok I can help you!'))
+else: 
+    print (str('Okay lol do it yourself'))
+
